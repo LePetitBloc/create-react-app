@@ -2,7 +2,7 @@
 
 Create React DApps with no build configuration.
 
-* [Creating an App](#creating-an-app) – How to create a new app.
+* [Creating a DApp](#creating-an-app) – How to create a new app.
 * [User Guide](https://github.com/lepetitbloc/create-react-dapp/blob/master/packages/react-scripts/template/README.md) – How to develop apps bootstrapped with Create React DApp.
 
 Create React DApp works on macOS, Windows, and Linux.<br>
@@ -32,7 +32,7 @@ They are preconfigured and hidden so that you can focus on the code.
 
 Just create a project, and you’re good to go.
 
-## Creating an App
+## Creating a DApp
 
 **You’ll need to have Node >= 6 on your local development machine** (but it’s not required on the server). You can use [nvm](https://github.com/creationix/nvm#installation) (macOS/Linux) or [nvm-windows](https://github.com/coreybutler/nvm-windows#node-version-manager-nvm-for-windows) to easily switch Node versions between different projects.
 
