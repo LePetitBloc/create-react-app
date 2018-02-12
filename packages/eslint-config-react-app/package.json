@@ -1,5 +1,5 @@
 {
-  "name": "eslint-config-react-app",
+  "name": "@lepetitbloc/eslint-config-react-app",
   "version": "2.1.0",
   "description": "ESLint configuration used by Create React DApp",
   "repository": "lepetitbloc/create-react-dapp",
@@ -19,6 +19,6 @@
     "eslint-plugin-react": "^7.1.0"
   },
   "dependencies": {
-    "confusing-browser-globals": "^1.0.0"
+    "@lepetitbloc/confusing-browser-globals": "^1.0.0"
   }
 }
