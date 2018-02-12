@@ -1,4 +1,4 @@
-# create-react-app
+# create-react-dapp
 
 This package includes the global command for [Create React DApp](https://github.com/lepetitbloc/create-react-dapp).<br>
 Please refer to its documentation:

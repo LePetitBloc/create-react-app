@@ -51,7 +51,7 @@ npm install --save-dev --save-exact react-scripts@0.9.5
 ## 0.9.4 (March 6, 2017)
 
 #### :bug: Bug Fix
-* `create-react-app`
+* `create-react-dapp`
 
   * [#1706](https://github.com/facebook/create-react-app/pull/1706) Extract compressed package for package name. ([@Timer](https://github.com/Timer))
 
@@ -143,7 +143,7 @@ npm install -g create-react-app@1.3.0
 ## 0.9.3 (February 28, 2017)
 
 #### :rocket: New Feature
-* `create-react-app`
+* `create-react-dapp`
   * [#1423](https://github.com/facebook/create-react-app/pull/1423) **Fall back to Yarn offline cache when creating a new project.** ([@voxsim](https://github.com/voxsim))
 
   If you are using Yarn, and you have created at least one app previously, Create React DApp now works offline.
@@ -156,7 +156,7 @@ npm install -g create-react-app@1.3.0
 
   * [#1665](https://github.com/facebook/create-react-app/pull/1665) Temporarily disable ESLint caching because of a bug. ([@gaearon](https://github.com/gaearon))
 
-* `create-react-app`
+* `create-react-dapp`
   * [#1675](https://github.com/facebook/create-react-app/pull/1675) Delete project folder on failed installation on Windows. ([@johann-sonntagbauer](https://github.com/johann-sonntagbauer))
   * [#1662](https://github.com/facebook/create-react-app/pull/1662) Validate project name before creating a project. ([@johann-sonntagbauer](https://github.com/johann-sonntagbauer))
   * [#1669](https://github.com/facebook/create-react-app/pull/1669) Make sure React dependencies aren’t pinned in new projects. ([@johann-sonntagbauer](https://github.com/johann-sonntagbauer))
@@ -201,14 +201,14 @@ npm install -g create-react-app@1.2.1
 
 #### :nail_care: Enhancement
 
-* `create-react-app`
+* `create-react-dapp`
   * [#1253](https://github.com/facebook/create-react-app/pull/1253) **Install time optimization.** ([@n3tr](https://github.com/n3tr))
 
     React, ReactDOM, and `react-scripts` are now installed in the same install instead of two different installs. This reduces app creation time by a noticeable amount.
 
   * [#1512](https://github.com/facebook/create-react-app/pull/1512) **Graceful error handling.** ([@chitchu](https://github.com/chitchu))
 
-    If an error occurs while `create-react-app` is running, it will now clean up and not leave a broken project to reduce confusion.
+    If an error occurs while `create-react-dapp` is running, it will now clean up and not leave a broken project to reduce confusion.
 
   * [#1193](https://github.com/facebook/create-react-app/pull/1193) Suggest upgrading to NPM >= 3 for faster install times. ([@mobinni](https://github.com/mobinni))
 
@@ -410,7 +410,7 @@ Thanks to [@Timer](https://github.com/timer) for cutting this release.
   * [#1510](https://github.com/facebook/create-react-app/pull/1510) Add missing `'\n'` to the end of `package.json` file. ([@pd4d10](https://github.com/pd4d10))
   * [#1324](https://github.com/facebook/create-react-app/pull/1324) Use npm script hooks to avoid `&&` in deploy script. ([@zpao](https://github.com/zpao))
 
-* `create-react-app`
+* `create-react-dapp`
 
   * [#1270](https://github.com/facebook/create-react-app/pull/1270) gh-1269: Enabling nested folder paths for project name. ([@dinukadesilva](https://github.com/dinukadesilva))
 
@@ -507,10 +507,10 @@ If you relied on the browser not starting in non-interactive terminals, you now 
 Thanks to [@fson](https://github.com/fson) for cutting this release.
 
 #### :bug: Bug Fix
-* `create-react-app`, `react-scripts`
+* `create-react-dapp`, `react-scripts`
   * [#1365](https://github.com/facebook/create-react-app/pull/1365) Use yarnpkg alias to run Yarn. ([@fson](https://github.com/fson))
 
-    Fixes an issue where running `create-react-app` failed on systems with Apache Hadoop installed because it falsely detected Hadoop YARN executable as Yarn package manager.
+    Fixes an issue where running `create-react-dapp` failed on systems with Apache Hadoop installed because it falsely detected Hadoop YARN executable as Yarn package manager.
 
 #### Committers: 1
 - Ville Immonen ([fson](https://github.com/fson))
@@ -548,7 +548,7 @@ npm install -g create-react-app@1.0.3
 
     Fixes a regression that caused stable Google Chrome to be opened even if you are using Canary as the default browser.
 
-* `create-react-app`
+* `create-react-dapp`
 
   * [#1223](https://github.com/facebook/create-react-app/pull/1223) Clean up Yarn detection and install code. ([@fson](https://github.com/fson))
 
@@ -575,7 +575,7 @@ npm install -g create-react-app@1.0.3
 
     Suppresses the instructions printed at the end of `npm run build` if `npm run deploy` already exists.
 
-* `create-react-app`
+* `create-react-dapp`
 
   * [#1236](https://github.com/facebook/create-react-app/pull/1236) Tweak console messages. ([@gaearon](https://github.com/gaearon))
 
@@ -634,10 +634,10 @@ npm install -g create-react-app@1.0.2
 ## 0.8.3 (December 8, 2016)
 
 #### :bug: Bug Fix
-* `create-react-app`
+* `create-react-dapp`
   * [#1204](https://github.com/facebook/create-react-app/pull/1204) Catch synchronous errors from spawning yarn. ([@gaearon](https://github.com/gaearon))
 
-    Fixes a crash when running `create-react-app` in some cases.
+    Fixes a crash when running `create-react-dapp` in some cases.
 
 * `react-scripts`
   * [#1203](https://github.com/facebook/create-react-app/pull/1203) Update webpack-subresource-integrity to fix Windows builds. ([@gaearon](https://github.com/gaearon))
@@ -783,14 +783,14 @@ Thanks to [@fson](https://github.com/fson) for cutting this release.
 
   * [#1090](https://github.com/facebook/create-react-app/pull/1090) Enable proxying of WebSockets. ([@dceddia](https://github.com/dceddia))
 
-* `create-react-app`, `react-scripts`
+* `create-react-dapp`, `react-scripts`
   * [#898](https://github.com/facebook/create-react-app/pull/898) Support Yarn. ([@fson](https://github.com/fson))
 
-    Yarn is a new fast, reliable and secure alternative to the `npm` client. If you have Yarn installed, `create-react-app` will use it to install packages when you create an app. It also creates a `yarn.lock` file that should be checked into source control (e.g. git). This ensures the same versions of packages will be installed each time `yarn install` is run, on any machine.
+    Yarn is a new fast, reliable and secure alternative to the `npm` client. If you have Yarn installed, `create-react-dapp` will use it to install packages when you create an app. It also creates a `yarn.lock` file that should be checked into source control (e.g. git). This ensures the same versions of packages will be installed each time `yarn install` is run, on any machine.
 
     `react-scripts` now also displays instructions using `yarn` commands for projects using Yarn (projects having a `yarn.lock` file).
 
-    To create a project using Yarn, simply install `yarn` and use `create-react-app` like before:
+    To create a project using Yarn, simply install `yarn` and use `create-react-dapp` like before:
     ```
     npm install -g yarn create-react-app@latest
 
@@ -960,7 +960,7 @@ Thanks to [@fson](https://github.com/fson) for cutting this release.
 * The error overlay is now disposed after fixing linting errors. ([@jarlef](https://github.com/jarlef) in [#856](https://github.com/facebook/create-react-app/pull/856))
 * Adds support for Webpack 2 to `webpackHotDevClient`. ([@michalkvasnicak](https://github.com/michalkvasnicak) in [#840](https://github.com/facebook/create-react-app/pull/840))
 
-### Global CLI (`create-react-app`)
+### Global CLI (`create-react-dapp`)
 
 * Adds support for passing a scoped package name to the `--scripts-version` argument. ([@pdillon](https://github.com/pdillon) in [#826](https://github.com/facebook/create-react-app/pull/826))
 * Fixes installing pre-release versions using a tarball URL with the `--scripts-version` argument. ([@jihchi](https://github.com/jihchi) in [#876](https://github.com/facebook/create-react-app/pull/876))
@@ -1069,7 +1069,7 @@ npm install --save-dev --save-exact react-scripts@0.5.1
 
 * Published for the first time! ([@gaearon](https://github.com/gaearon) in [#723](https://github.com/facebook/create-react-app/pull/723))
 
-### Global CLI (`create-react-app`)
+### Global CLI (`create-react-dapp`)
 
 * Added `README` to npm. There were no other changes.
 
@@ -1143,11 +1143,11 @@ npm install --save-dev --save-exact react-scripts@0.4.3
 * The output after creating a project is better formatted. ([@btnwtn](https://github.com/btnwtn) in [#629](https://github.com/facebook/create-react-app/pull/629))
 * Development server logs are less noisy. ([@gaearon](https://github.com/gaearon) in [122068](https://github.com/lepetitbloc/create-react-dapp/commit/1220683276dd9eb2f2719aece7f40bf2ffb397b4))
 
-### Global CLI (`create-react-app`)
+### Global CLI (`create-react-dapp`)
 
 * It now runs on early Node versions to print a friendly warning instead of crashing. ([@sotojuan](https://github.com/sotojuan) in [fc3ab4](https://github.com/facebook/create-react-app/commit/fc3ab46d2a54f142f9287ce7de9ab2fc2514487d))
 * We now print a friendly message when you create a project with invalid name. ([@mareksuscak](https://github.com/mareksuscak) in [#628](https://github.com/facebook/create-react-app/pull/628))
-* Passing a custom fork of `react-scripts` to `create-react-app` with `--scripts-version` works again. ([@yesmeck](https://github.com/yesmeck) in [#632](https://github.com/facebook/create-react-app/pull/632))
+* Passing a custom fork of `react-scripts` to `create-react-dapp` with `--scripts-version` works again. ([@yesmeck](https://github.com/yesmeck) in [#632](https://github.com/facebook/create-react-app/pull/632))
 
 ### Migrating from 0.4.1 to 0.4.2
 
@@ -1231,7 +1231,7 @@ npm install --save-dev --save-exact react-scripts@0.3.1
 * Fixed a permission issue with Docker. ([@gaearon](https://github.com/gaearon) in [73c940](https://github.com/facebook/create-react-app/commit/73c940a73205d761230f8d6bf81ecfd460ba28a9))
 * Fixed an issue with generator syntax in Jest that occurred in an alpha release. ([@gaearon](https://github.com/gaearon) in [#535](https://github.com/facebook/create-react-app/pull/535))
 
-### Global CLI (`create-react-app`)
+### Global CLI (`create-react-dapp`)
 
 * You can now create a project in a folder that already contains an `.idea` folder, which is necessary for future WebStorm integration. ([@denofevil](https://github.com/denofevil) in [#522](https://github.com/facebook/create-react-app/pull/522))
 
@@ -1288,7 +1288,7 @@ Since 0.3.0 added a test runner, we recommend that you add it to the `scripts` s
 
 Update `react-scripts` to point to `0.2.3` in your `package.json` and run `npm install`. You shouldn’t need to do anything else.
 
-Newly created projects will use `0.2.3` automatically. You **don’t** need to update the global `create-react-app` CLI itself. It stays at `0.2.0` for now because it doesn’t have any changes.
+Newly created projects will use `0.2.3` automatically. You **don’t** need to update the global `create-react-dapp` CLI itself. It stays at `0.2.0` for now because it doesn’t have any changes.
 
 ## 0.2.2 (August 22, 2016)
 
@@ -1308,7 +1308,7 @@ Newly created projects will use `0.2.3` automatically. You **don’t** need to u
 
 Update `react-scripts` to point to `0.2.2` in your `package.json` and run `npm install`. You shouldn’t need to do anything else.
 
-Newly created projects will use `0.2.2` automatically. You **don’t** need to update the global `create-react-app` CLI itself. It stays at `0.2.0` for now because it doesn’t have any changes.
+Newly created projects will use `0.2.2` automatically. You **don’t** need to update the global `create-react-dapp` CLI itself. It stays at `0.2.0` for now because it doesn’t have any changes.
 
 ## 0.2.1 (August 1, 2016)
 
@@ -1325,7 +1325,7 @@ Newly created projects will use `0.2.2` automatically. You **don’t** need to u
 
 Update `react-scripts` to point to `0.2.1` in your `package.json` and run `npm install`. You shouldn’t need to do anything else. If you see a warning about wrong file casing next time you `npm start`, fix your imports to use the correct filename casing.
 
-Newly created projects will use `0.2.1` automatically. You **don’t** need to update the global `create-react-app` CLI itself. It stays at `0.2.0` for now because it doesn’t have any changes.
+Newly created projects will use `0.2.1` automatically. You **don’t** need to update the global `create-react-dapp` CLI itself. It stays at `0.2.0` for now because it doesn’t have any changes.
 
 ## 0.2.0 (July 28, 2016)
 
@@ -1348,7 +1348,7 @@ Newly created projects will use `0.2.1` automatically. You **don’t** need to u
 * Linting now works with IDEs if you follow [these](https://github.com/lepetitbloc/create-react-dapp/blob/master/template/README.md#display-lint-output-in-the-editor) instructions ([@keyanzhang](https://github.com/keyanzhang) in [#149](https://github.com/facebook/create-react-app/pull/149))
 * After building, we now print gzipped bundle size ([@lvwrence](https://github.com/lvwrence) in [#229](https://github.com/facebook/create-react-app/pull/229))
 
-### Global CLI (`create-react-app`)
+### Global CLI (`create-react-dapp`)
 
 * It enforces that you have Node >= 4 ([@conorhastings](https://github.com/conorhastings) in [#88](https://github.com/facebook/create-react-app/pull/88))
 * It handles `--version` flag correctly ([@mxstbr](https://github.com/mxstbr) in [#152](https://github.com/facebook/create-react-app/pull/152))

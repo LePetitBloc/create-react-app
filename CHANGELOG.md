@@ -14,7 +14,7 @@
   * [#3894](https://github.com/facebook/create-react-app/pull/3894) Include `{json,css}` files in prettier command. ([@reyronald](https://github.com/reyronald))
 
 #### :house: Internal
-* `create-react-app`
+* `create-react-dapp`
   * [#3853](https://github.com/facebook/create-react-app/pull/3853) pin envinfo version to 3.4.2. ([@bondz](https://github.com/bondz))
 
 #### Committers: 6
@@ -50,7 +50,7 @@ yarn add --exact react-scripts@1.1.1
 
   * [#3474](https://github.com/facebook/create-react-app/pull/3474) Allow the error overlay to be unregistered. ([@Timer](https://github.com/Timer))
   
-* `create-react-app`
+* `create-react-dapp`
 
   * [#3408](https://github.com/facebook/create-react-app/pull/3408) Add `--info` flag to help gather bug reports. ([@tabrindle](https://github.com/tabrindle))
   * [#3409](https://github.com/facebook/create-react-app/pull/3409) Add `--use-npm` flag to bypass Yarn even on systems that have it. ([@tabrindle](https://github.com/tabrindle))
@@ -72,7 +72,7 @@ yarn add --exact react-scripts@1.1.1
   * [#2071](https://github.com/facebook/create-react-app/pull/2071) Fix broken console clearing on Windows. ([@danielverejan](https://github.com/danielverejan))
   * [#3686](https://github.com/facebook/create-react-app/pull/3686) Fix starting a project in directory with `++` in the name. ([@Norris1z](https://github.com/Norris1z))
 
-* `create-react-app`
+* `create-react-dapp`
 
   * [#3320](https://github.com/facebook/create-react-app/pull/3320) Fix offline installation to respect proxy from `.npmrc`. ([@mdogadailo](https://github.com/mdogadailo))
   
@@ -89,7 +89,7 @@ yarn add --exact react-scripts@1.1.1
   * [#3455](https://github.com/facebook/create-react-app/pull/3455) Add a localhost-only log message pointing folks to the PWA docs. ([@jeffposnick](https://github.com/jeffposnick))
   * [#3416](https://github.com/facebook/create-react-app/pull/3416) Improve eject message. ([@xjlim](https://github.com/xjlim))
 
-* `create-react-app`
+* `create-react-dapp`
 
   * [#3740](https://github.com/facebook/create-react-app/pull/3740) Allow more non-conflicting files in initial project directory. ([@GreenGremlin](https://github.com/GreenGremlin))
 
@@ -318,7 +318,7 @@ yarn add --exact react-scripts@1.0.16
 
   * [#3100](https://github.com/facebook/create-react-app/pull/3100) Add click-to-open support for build errors. ([@tharakawj](https://github.com/tharakawj))
 
-* `create-react-app`
+* `create-react-dapp`
 
   * [#3355](https://github.com/facebook/create-react-app/pull/3355) Add preflight CWD check for npm to detect bad Windows setups. ([@gaearon](https://github.com/gaearon))
 
@@ -457,7 +457,7 @@ yarn add --exact react-scripts@1.0.15
 
   * [#3102](https://github.com/facebook/create-react-app/pull/3102) Clean target directory before compiling overlay. ([@Timer](https://github.com/Timer))
 
-* `create-react-app`, `react-dev-utils`, `react-error-overlay`, `react-scripts`
+* `create-react-dapp`, `react-dev-utils`, `react-error-overlay`, `react-scripts`
 
   * [#3058](https://github.com/facebook/create-react-app/pull/3058) Re-run prettier for all files and pin the version. ([@viankakrisna](https://github.com/viankakrisna))
 
@@ -610,7 +610,7 @@ yarn add --exact react-scripts@1.0.12
 ## 1.0.11 (August 9, 2017)
 
 #### :bug: Bug Fix
-* `create-react-app`
+* `create-react-dapp`
   * [#2884](https://github.com/facebook/create-react-app/pull/2884) Improve offline heuristic for proxied environments. ([@bsyk](https://github.com/bsyk))
 
     When a Yarn proxy is set, we will check its connectivity if we cannot reach Yarn's registry. This is often the case when DNS lookups must be made through the proxy.
@@ -639,7 +639,7 @@ yarn add --exact react-scripts@1.0.12
 * `react-dev-utils`, `react-scripts`
   * [#2468](https://github.com/facebook/create-react-app/pull/2468) Allow importing `package.json`. ([@iamdoron](https://github.com/iamdoron))
   * [#2650](https://github.com/facebook/create-react-app/pull/2650) Make UglifyJS error friendlier. ([@viankakrisna](https://github.com/viankakrisna))
-* `create-react-app`
+* `create-react-dapp`
   * [#2785](https://github.com/facebook/create-react-app/pull/2785) Change error wording and list conflicting files when initializing app. ([@OwenFlood](https://github.com/OwenFlood))
 * `react-dev-utils`
   * [#2761](https://github.com/facebook/create-react-app/pull/2761) Don't prompt to install serve if already installed. ([@OwenFlood](https://github.com/OwenFlood))
@@ -667,7 +667,7 @@ yarn add --exact react-scripts@1.0.12
   * [#2732](https://github.com/facebook/create-react-app/pull/2732) Update link to issue blocking JSX hoisting. ([@ForbesLindesay](https://github.com/ForbesLindesay))
 
 #### :house: Internal
-* `create-react-app`, `eslint-config-react-app`, `react-dev-utils`, `react-error-overlay`, `react-scripts`
+* `create-react-dapp`, `eslint-config-react-app`, `react-dev-utils`, `react-error-overlay`, `react-scripts`
   * [#2923](https://github.com/facebook/create-react-app/pull/2923) Update deps. ([@Timer](https://github.com/Timer))
 * `eslint-config-react-app`
   * [#2718](https://github.com/facebook/create-react-app/pull/2718) Re-enable flowtype warning. ([@oskarkook](https://github.com/oskarkook))
@@ -726,7 +726,7 @@ yarn add --exact react-scripts@1.0.11
 
   * [#2692](https://github.com/facebook/create-react-app/pull/2692) Fix IE11 crash in development. ([@pdhoopr](https://github.com/pdhoopr))
 
-* `create-react-app`
+* `create-react-dapp`
   * [#2683](https://github.com/facebook/create-react-app/pull/2683) Fix a typo. ([@BenBrostoff](https://github.com/BenBrostoff))
 
 #### :memo: Documentation
@@ -835,7 +835,7 @@ yarn add --exact react-scripts@1.0.9
 
   * [#2658](https://github.com/facebook/create-react-app/pull/2658) Bump dependencies. ([@gaearon](https://github.com/gaearon))
 
-* `create-react-app`, `react-scripts`
+* `create-react-dapp`, `react-scripts`
 
   * [#2657](https://github.com/facebook/create-react-app/pull/2657) Put `react-scripts` in `dependencies`, not `devDependencies`. ([@gaearon](https://github.com/gaearon))
   * [#2635](https://github.com/facebook/create-react-app/pull/2635) Silence unhelpful npm warnings. ([@gaearon](https://github.com/gaearon))
@@ -849,7 +849,7 @@ yarn add --exact react-scripts@1.0.9
   * [#2518](https://github.com/facebook/create-react-app/pull/2518) Warn when trying to run on port below 1024 without admin permissions under Linux/macOS. ([@levrik](https://github.com/levrik))
   * [#2385](https://github.com/facebook/create-react-app/pull/2385) Suggest just `yarn build` in output. ([@gaearon](https://github.com/gaearon))
 
-* `create-react-app`
+* `create-react-dapp`
 
   * [#1945](https://github.com/facebook/create-react-app/pull/1945) Fix grammar in CLI output. ([@ColinEberhardt](https://github.com/ColinEberhardt))
 
@@ -1522,7 +1522,7 @@ Please [file an issue](https://github.com/lepetitbloc/create-react-dapp/issues/n
   * [#2076](https://github.com/facebook/create-react-app/pull/2076) `openBrowser` now supports urls with more than one parameter. ([@alisonmonteiro](https://github.com/alisonmonteiro))
   * [#1690](https://github.com/facebook/create-react-app/pull/1690) Fix `openBrowser()` when `BROWSER=open` on macOS. ([@bpierre](https://github.com/bpierre))
   * [#1696](https://github.com/facebook/create-react-app/pull/1696) Fix an edge-case for people with the username `cwd`. ([@chrisdrackett](https://github.com/chrisdrackett))
-* `create-react-app`
+* `create-react-dapp`
   * [#1863](https://github.com/facebook/create-react-app/pull/1863) Check internet connectivity with lookup instead of resolve. ([@kdleijer](https://github.com/kdleijer))
   * [#1867](https://github.com/facebook/create-react-app/pull/1867) Show package name in CLI. ([@mkazantsev](https://github.com/mkazantsev))
   * [#1706](https://github.com/facebook/create-react-app/pull/1706) Properly extract package name for installing a tgz of scoped packages. ([@Timer](https://github.com/Timer))
@@ -1569,7 +1569,7 @@ Please [file an issue](https://github.com/lepetitbloc/create-react-dapp/issues/n
   * [#2120](https://github.com/facebook/create-react-app/pull/2120) Omit ESLint warnings when there are ESLint errors. ([@gaearon](https://github.com/gaearon))
   * [#2113](https://github.com/facebook/create-react-app/pull/2113) Prettify errors and warnings for Webpack 2. ([@gaearon](https://github.com/gaearon))
   * [#1842](https://github.com/facebook/create-react-app/pull/1842) Modularize and extract crash overlay to iframe. ([@Timer](https://github.com/Timer))
-* `create-react-app`
+* `create-react-dapp`
   * [#1811](https://github.com/facebook/create-react-app/pull/1811) Allow creation of apps in empty Mercurial repos. ([@GreenGremlin](https://github.com/GreenGremlin))
 * Other
   * [#1402](https://github.com/facebook/create-react-app/pull/1402) Create empty package.json in e2e test (#1401). ([@matoilic](https://github.com/matoilic))
@@ -1620,7 +1620,7 @@ Please [file an issue](https://github.com/lepetitbloc/create-react-dapp/issues/n
   * [#2175](https://github.com/facebook/create-react-app/pull/2175) Resolve regenerator runtime relative to react-scripts. ([@gaearon](https://github.com/gaearon))
   * [#1894](https://github.com/facebook/create-react-app/pull/1894) Re-disable babel modules transform. ([@Timer](https://github.com/Timer))
   * [#1742](https://github.com/facebook/create-react-app/pull/1742) Switch to preset-env. ([@Timer](https://github.com/Timer))
-* `create-react-app`, `react-dev-utils`, `react-scripts`
+* `create-react-dapp`, `react-dev-utils`, `react-scripts`
   * [#1897](https://github.com/facebook/create-react-app/pull/1897) Bump minimal Node version to 6. ([@ianschmitz](https://github.com/ianschmitz))
 * Other
   * [#1868](https://github.com/facebook/create-react-app/pull/1868) Fix AppVeyor CI. ([@darrenscerri](https://github.com/darrenscerri))
@@ -1630,7 +1630,7 @@ Please [file an issue](https://github.com/lepetitbloc/create-react-dapp/issues/n
   * [#1707](https://github.com/facebook/create-react-app/pull/1707) Add double quotes to escape spaces in paths in e2e. ([@viankakrisna](https://github.com/viankakrisna))
   * [#1688](https://github.com/facebook/create-react-app/pull/1688) Pin and upgrade lerna version. ([@viankakrisna](https://github.com/viankakrisna))
   * [#1648](https://github.com/facebook/create-react-app/pull/1648) Add `appveyor.yml`. ([@Timer](https://github.com/Timer))
-* `babel-preset-react-app`, `create-react-app`, `eslint-config-react-app`, `react-dev-utils`, `react-scripts`
+* `babel-preset-react-app`, `create-react-dapp`, `eslint-config-react-app`, `react-dev-utils`, `react-scripts`
   * [#1738](https://github.com/facebook/create-react-app/pull/1738) Update to modern code style (ES6). ([@tuchk4](https://github.com/tuchk4))
 * `eslint-config-react-app`
   * [#1740](https://github.com/facebook/create-react-app/pull/1740) Relax ESLint config peerDependency. ([@gaearon](https://github.com/gaearon))

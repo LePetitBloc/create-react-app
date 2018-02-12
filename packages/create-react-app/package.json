@@ -1,5 +1,5 @@
 {
-  "name": "create-react-app",
+  "name": "create-react-dapp",
   "version": "1.5.1",
   "keywords": [
     "react"
@@ -18,7 +18,7 @@
     "createReactApp.js"
   ],
   "bin": {
-    "create-react-app": "./index.js"
+    "create-react-dapp": "./index.js"
   },
   "dependencies": {
     "chalk": "^1.1.3",

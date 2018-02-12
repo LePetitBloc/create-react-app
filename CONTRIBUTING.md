@@ -42,7 +42,7 @@ Please **ask first** if somebody else is already working on this or the core dev
 Please also provide a **test plan**, i.e. specify how you verified that your addition works.
 
 ## Folder Structure of Create React DApp
-`create-react-app` is a monorepo, meaning it is divided into independent sub-packages.<br>
+`create-react-dapp` is a monorepo, meaning it is divided into independent sub-packages.<br>
 These packages can be found in the [`packages/`](https://github.com/lepetitbloc/create-react-dapp/tree/master/packages) directory.
 
 ### Overview of directory structure
@@ -58,12 +58,12 @@ packages/
 #### [babel-preset-react-app](https://github.com/lepetitbloc/create-react-dapp/tree/master/packages/babel-preset-react-app)
 This package is a babel preset intended to be used with `react-scripts`.<br>
 It targets platforms that React is designed to support (IE 9+) and enables experimental features used heavily at Facebook.<br>
-This package is enabled by default for all `create-react-app` scaffolded applications.
+This package is enabled by default for all `create-react-dapp` scaffolded applications.
 #### [create-react-app](https://github.com/lepetitbloc/create-react-dapp/tree/master/packages/create-react-app)
 The global CLI command code can be found in this directory, and shouldn't often be changed. It should run on Node 0.10+.
 #### [eslint-config-react-app](https://github.com/lepetitbloc/create-react-dapp/tree/master/packages/eslint-config-react-app)
 This package contains a conservative set of rules focused on making errors apparent and enforces no style rules.<br>
-This package is enabled by default for all `create-react-app` scaffolded applications.
+This package is enabled by default for all `create-react-dapp` scaffolded applications.
 #### [react-dev-utils](https://github.com/lepetitbloc/create-react-dapp/tree/master/packages/react-dev-utils)
 This package contains utilities used for `react-scripts` and sister packages.<br>
 Its main purpose is to conceal code which the user shouldn't be burdened with upon ejecting.
@@ -75,7 +75,7 @@ All functionality must be retained (and configuration given to the user) if they
 
 1. Clone the repo with `git clone https://github.com/lepetitbloc/create-react-dapp`
 
-2. Run `yarn` in the root `create-react-app` folder.
+2. Run `yarn` in the root `create-react-dapp` folder.
 
 Once it is done, you can modify any file locally and run `yarn start`, `yarn test` or `yarn build` just like in a generated project.
 
@@ -114,7 +114,7 @@ By default git would use `CRLF` line endings which would cause the scripts to fa
 1. Tag all merged pull requests that go into the release with the relevant milestone. Each merged PR should also be labeled with one of the [labels](https://github.com/lepetitbloc/create-react-dapp/labels) named `tag: ...` to indicate what kind of change it is.
 2. Close the milestone.
 3. In most releases, only `react-scripts` needs to be released. If you don’t have any changes to the `packages/create-react-app` folder, you don’t need to bump its version or publish it (the publish script will publish only changed packages).
-4. Note that files in `packages/create-react-app` should be modified with extreme caution. Since it’s a global CLI, any version of `create-react-app` (global CLI) including very old ones should work with the latest version of `react-scripts`.
+4. Note that files in `packages/create-react-app` should be modified with extreme caution. Since it’s a global CLI, any version of `create-react-dapp` (global CLI) including very old ones should work with the latest version of `react-scripts`.
 5. Create a change log entry for the release:
   * You'll need an [access token for the GitHub API](https://help.github.com/articles/creating-an-access-token-for-command-line-use/). Save it to this environment variable: `export GITHUB_AUTH="..."`
   * Run `yarn changelog`. The command will find all the labeled pull requests merged since the last release and group them by the label and affected packages, and create a change log entry with all the changes and links to PRs and their authors. Copy and paste it to `CHANGELOG.md`.
