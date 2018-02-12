@@ -10,10 +10,10 @@
     "build": "cross-env NODE_ENV=development node build.js",
     "build:prod": "cross-env NODE_ENV=production node build.js"
   },
-  "repository": "facebook/create-react-app",
+  "repository": "lepetitbloc/create-react-dapp",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/facebook/create-react-app/issues"
+    "url": "https://github.com/lepetitbloc/create-react-dapp/issues"
   },
   "keywords": [
     "overlay",

@@ -5,13 +5,13 @@
     "react"
   ],
   "description": "Create React apps with no build configuration.",
-  "repository": "facebook/create-react-app",
+  "repository": "lepetitbloc/create-react-dapp",
   "license": "MIT",
   "engines": {
     "node": ">=4"
   },
   "bugs": {
-    "url": "https://github.com/facebook/create-react-app/issues"
+    "url": "https://github.com/lepetitbloc/create-react-dapp/issues"
   },
   "files": [
     "index.js",

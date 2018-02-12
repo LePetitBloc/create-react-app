@@ -7,7 +7,7 @@
   "scripts": {
     "test": "jest"
   },
-  "repository": "facebook/create-react-app",
+  "repository": "lepetitbloc/create-react-dapp",
   "keywords": [
     "eslint",
     "globals"

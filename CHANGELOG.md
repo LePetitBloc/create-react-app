@@ -972,7 +972,7 @@ yarn add --dev --exact react-scripts@1.0.8
 
 You may optionally then move `react-scripts` from `devDependencies` to `dependencies` since that’s how we’ll structure newly created projects. It is not necessary though.
 
-If you left the service worker integration enabled and didn’t change how it works, you can replace `src/registerServiceWorker.js` with [this updated version](https://raw.githubusercontent.com/facebook/create-react-app/895c475d3fc218c65dcac9a3ef3f2c0ea746a1ed/packages/react-scripts/template/src/registerServiceWorker.js).
+If you left the service worker integration enabled and didn’t change how it works, you can replace `src/registerServiceWorker.js` with [this updated version](https://raw.githubusercontent.com/lepetitbloc/create-react-dapp/895c475d3fc218c65dcac9a3ef3f2c0ea746a1ed/packages/react-scripts/template/src/registerServiceWorker.js).
 
 If you haven't changed the default CSS organization, you may want to apply [this fix](https://github.com/facebook/create-react-app/pull/2470/files) that makes `index.css` take precedence over `App.css` in your project.
 
@@ -1217,7 +1217,7 @@ or
 yarn add --dev --exact react-scripts@1.0.2
 ```
 
-If you previously had issues with an `Invalid Host Header` error, [follow these new instructions](https://github.com/facebook/create-react-app/blob/master/packages/react-scripts/template/README.md#invalid-host-header-errors-after-configuring-proxy) to fix it.
+If you previously had issues with an `Invalid Host Header` error, [follow these new instructions](https://github.com/lepetitbloc/create-react-dapp/blob/master/packages/react-scripts/template/README.md#invalid-host-header-errors-after-configuring-proxy) to fix it.
 
 ## 1.0.1 (May 19, 2017)
 
@@ -1417,7 +1417,7 @@ If you still have the problem please file an issue.
 
 Unhandled Promise rejections will now crash tests. You can fix them by explicitly catching the errors you don’t care about.
 
-#### How to turn my app into a [Progressive Web App](https://github.com/facebook/create-react-app/blob/master/packages/react-scripts/template/README.md#making-a-progressive-web-app)?
+#### How to turn my app into a [Progressive Web App](https://github.com/lepetitbloc/create-react-dapp/blob/master/packages/react-scripts/template/README.md#making-a-progressive-web-app)?
 
 After the regular update procedure above, add these line to `<head>` in `public/index.html`:
 
@@ -1458,13 +1458,13 @@ Then create a file called `public/manifest.json` that looks like this:
 }
 ```
 
-Finally, create `src/registerServiceWorker.js` with [this template](https://github.com/facebook/create-react-app/blob/bf9eca25f519c73f69cff20ac49ce9500e578fe0/packages/react-scripts/template/src/registerServiceWorker.js), [import it](https://github.com/facebook/create-react-app/blob/bf9eca25f519c73f69cff20ac49ce9500e578fe0/packages/react-scripts/template/src/index.js#L4) from `src/index.js` and [call the function it exports](https://github.com/facebook/create-react-app/blob/bf9eca25f519c73f69cff20ac49ce9500e578fe0/packages/react-scripts/template/src/index.js#L8).
+Finally, create `src/registerServiceWorker.js` with [this template](https://github.com/lepetitbloc/create-react-dapp/blob/bf9eca25f519c73f69cff20ac49ce9500e578fe0/packages/react-scripts/template/src/registerServiceWorker.js), [import it](https://github.com/lepetitbloc/create-react-dapp/blob/bf9eca25f519c73f69cff20ac49ce9500e578fe0/packages/react-scripts/template/src/index.js#L4) from `src/index.js` and [call the function it exports](https://github.com/lepetitbloc/create-react-dapp/blob/bf9eca25f519c73f69cff20ac49ce9500e578fe0/packages/react-scripts/template/src/index.js#L8).
 
 #### Anything missing?
 
 This was a large release, and we might have missed something.
 
-Please [file an issue](https://github.com/facebook/create-react-app/issues/new) and we will try to help.
+Please [file an issue](https://github.com/lepetitbloc/create-react-dapp/issues/new) and we will try to help.
 
 ### Detailed Changelog
 
