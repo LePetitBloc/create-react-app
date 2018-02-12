@@ -77,11 +77,11 @@ function verifyPackageTree() {
             `\nThere might be a problem with the project dependency tree.\n` +
               `It is likely ${chalk.bold(
                 'not'
-              )} a bug in Create React App, but something you need to fix locally.\n\n`
+              )} a bug in Create React DApp, but something you need to fix locally.\n\n`
           ) +
             `The ${chalk.bold(
               ownPackageJson.name
-            )} package provided by Create React App requires a dependency:\n\n` +
+            )} package provided by Create React DApp requires a dependency:\n\n` +
             chalk.green(
               `  "${chalk.bold(dep)}": "${chalk.bold(expectedVersion)}"\n\n`
             ) +

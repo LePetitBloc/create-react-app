@@ -1,11 +1,11 @@
-# Create React App [![Build Status](https://travis-ci.org/lepetitbloc/create-react-dapp.svg?branch=master)](https://travis-ci.org/lepetitbloc/create-react-dapp)
+# Create React DApp [![Build Status](https://travis-ci.org/lepetitbloc/create-react-dapp.svg?branch=master)](https://travis-ci.org/lepetitbloc/create-react-dapp)
 
-Create React apps with no build configuration.
+Create React DApps with no build configuration.
 
 * [Creating an App](#creating-an-app) – How to create a new app.
-* [User Guide](https://github.com/lepetitbloc/create-react-dapp/blob/master/packages/react-scripts/template/README.md) – How to develop apps bootstrapped with Create React App.
+* [User Guide](https://github.com/lepetitbloc/create-react-dapp/blob/master/packages/react-scripts/template/README.md) – How to develop apps bootstrapped with Create React DApp.
 
-Create React App works on macOS, Windows, and Linux.<br>
+Create React DApp works on macOS, Windows, and Linux.<br>
 If something doesn’t work, please [file an issue](https://github.com/lepetitbloc/create-react-dapp/issues/new).
 
 ## Quick Overview
@@ -182,7 +182,7 @@ The tradeoff is that **these tools are preconfigured to work in a specific way**
 
 ## Popular Alternatives
 
-Create React App is a great fit for:
+Create React DApp is a great fit for:
 
 * **Learning React** in a comfortable and feature-rich development environment.
 * **Starting new single-page React applications.**
@@ -196,9 +196,9 @@ Here’s a few common cases where you might want to try something else:
 
 * If you need to **publish a React component**, [nwb](https://github.com/insin/nwb) can [also do this](https://github.com/insin/nwb#react-components-and-libraries), as well as [Neutrino's react-components preset](https://neutrino.js.org/packages/react-components/).
 
-* If you want to do **server rendering** with React and Node.js, check out [Next.js](https://github.com/zeit/next.js/) or [Razzle](https://github.com/jaredpalmer/razzle). Create React App is agnostic of the backend, and just produces static HTML/JS/CSS bundles.
+* If you want to do **server rendering** with React and Node.js, check out [Next.js](https://github.com/zeit/next.js/) or [Razzle](https://github.com/jaredpalmer/razzle). Create React DApp is agnostic of the backend, and just produces static HTML/JS/CSS bundles.
 
-* If your website is **mostly static** (for example, a portfolio or a blog), consider using [Gatsby](https://www.gatsbyjs.org/) instead. Unlike Create React App, it pre-renders the website into HTML at the build time.
+* If your website is **mostly static** (for example, a portfolio or a blog), consider using [Gatsby](https://www.gatsbyjs.org/) instead. Unlike Create React DApp, it pre-renders the website into HTML at the build time.
 
 * If you want to use **TypeScript**, consider using [create-react-app-typescript](https://github.com/wmonk/create-react-app-typescript).
 

@@ -101,14 +101,14 @@ module.exports = (resolve, rootDir, srcRoots) => {
       } else {
         console.error(
           chalk.red(
-            '\nOut of the box, Create React App only supports overriding ' +
+            '\nOut of the box, Create React DApp only supports overriding ' +
               'these Jest options:\n\n' +
               supportedKeys
                 .map(key => chalk.bold('  \u2022 ' + key))
                 .join('\n') +
               '.\n\n' +
               'These options in your package.json Jest configuration ' +
-              'are not currently supported by Create React App:\n\n' +
+              'are not currently supported by Create React DApp:\n\n' +
               unsupportedKeys
                 .map(key => chalk.bold('  \u2022 ' + key))
                 .join('\n') +
@@ -116,7 +116,7 @@ module.exports = (resolve, rootDir, srcRoots) => {
               'eject from the default setup. You can do so by running ' +
               chalk.bold('npm run eject') +
               ' but remember that this is a one-way operation. ' +
-              'You may also file an issue with Create React App to discuss ' +
+              'You may also file an issue with Create React DApp to discuss ' +
               'supporting more options out of the box.\n'
           )
         );

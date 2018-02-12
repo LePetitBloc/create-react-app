@@ -71,7 +71,7 @@ esac
 
 read -r -d '' apply_changes <<- CMD
 cd /var/create-react-app
-git config --global user.name "Create React App"
+git config --global user.name "Create React DApp"
 git config --global user.email "cra@email.com"
 git stash save -u
 git stash show -p > patch

@@ -1,20 +1,20 @@
 # eslint-config-react-app
 
-This package includes the shareable ESLint configuration used by [Create React App](https://github.com/lepetitbloc/create-react-dapp).<br>
+This package includes the shareable ESLint configuration used by [Create React DApp](https://github.com/lepetitbloc/create-react-dapp).<br>
 Please refer to its documentation:
 
 * [Getting Started](https://github.com/lepetitbloc/create-react-dapp/blob/master/README.md#getting-started) – How to create a new app.
-* [User Guide](https://github.com/lepetitbloc/create-react-dapp/blob/master/packages/react-scripts/template/README.md) – How to develop apps bootstrapped with Create React App.
+* [User Guide](https://github.com/lepetitbloc/create-react-dapp/blob/master/packages/react-scripts/template/README.md) – How to develop apps bootstrapped with Create React DApp.
 
-## Usage in Create React App Projects
+## Usage in Create React DApp Projects
 
-The easiest way to use this configuration is with [Create React App](https://github.com/lepetitbloc/create-react-dapp), which includes it by default.
+The easiest way to use this configuration is with [Create React DApp](https://github.com/lepetitbloc/create-react-dapp), which includes it by default.
 
-**You don’t need to install it separately in Create React App projects.**
+**You don’t need to install it separately in Create React DApp projects.**
 
-## Usage Outside of Create React App
+## Usage Outside of Create React DApp
 
-If you want to use this ESLint configuration in a project not built with Create React App, you can install it with following steps.
+If you want to use this ESLint configuration in a project not built with Create React DApp, you can install it with following steps.
 
 First, install this package, ESLint and the necessary plugins.
 
@@ -64,4 +64,4 @@ If you want to enable even more accessibility rules, you can create an `.eslintr
   }
   ```
 
-However, if you are using [Create React App](https://github.com/lepetitbloc/create-react-dapp) and have not ejected, any additional rules will only be displayed in the [IDE integrations](https://github.com/lepetitbloc/create-react-dapp/blob/master/packages/react-scripts/template/README.md#displaying-lint-output-in-the-editor), but not in the browser or the terminal.
+However, if you are using [Create React DApp](https://github.com/lepetitbloc/create-react-dapp) and have not ejected, any additional rules will only be displayed in the [IDE integrations](https://github.com/lepetitbloc/create-react-dapp/blob/master/packages/react-scripts/template/README.md#displaying-lint-output-in-the-editor), but not in the browser or the terminal.

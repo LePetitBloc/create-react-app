@@ -22,7 +22,7 @@ const isInteractive = process.stdout.isTTY;
 let handleCompile;
 
 // You can safely remove this after ejecting.
-// We only use this block for testing of Create React App itself:
+// We only use this block for testing of Create React DApp itself:
 const isSmokeTest = process.argv.some(arg => arg.indexOf('--smoke-test') > -1);
 if (isSmokeTest) {
   handleCompile = (err, stats) => {
